@@ -1,12 +1,61 @@
-# React + Vite
+# 🎬 CineVerse - Movie Explorer App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to **CineVerse**, a modern and responsive Movie Explorer App built with **React + Vite**, integrated with **TMDb API**, styled using **Material-UI (MUI)**, and featuring search, trending movies, and a detailed movie view.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+👉 [Visit the Live App](https://niroshmovie.netlify.app/) 
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Features
+
+### 🖥️ User Interface (UI)
+
+- 🔐 **Login Page** with username & password
+- 🔎 **Search Bar** to find movies by name
+- 🖼️ **Movie Grid** showing:
+  - Poster
+  - Title
+  - Release Year
+  - Rating
+- 📄 **Movie Details View** with:
+  - Overview
+  - Release Date
+  - Original Language
+  - Production Companies
+  - Cast
+  - Trailer Link
+    
+- 📈 **Trending Section** with the latest popular movies
+- 🌗 **Light/Dark Mode** toggle for better UX
+- ❤️ **Favorites List** 
+
+---
+
+## 🔌 API Integration
+
+- 🎥 Powered by [TMDb API](https://developers.themoviedb.org/3)
+  
+- Endpoints used:
+  - Search Movies
+  - Trending Movies
+  - Movie Details
+  - Cast & Videos
+
+---
+
+## ⚛️ Tech Stack
+
+| Tech         | Description                           |
+|--------------|---------------------------------------|
+| React + Vite | Frontend Framework                    |
+| Axios        | For fetching API data                 |
+| TMDb API     | Source of movie data                  |
+| Material UI  | Component styling and layout          |
+| Context API  | State management for movies/favorites |
+
+---
+
+
+
